@@ -45,3 +45,7 @@ body {
 .footer-container {
   padding: 0em 2em
 }
+
+.is-hidden{
+  display: none;
+}
