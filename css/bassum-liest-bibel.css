@@ -58,6 +58,10 @@ body {
   margin-top: 10px;
 }
 
+#footnotes ol{
+  margin-bottom: 0.5rem;
+}
+
 #footnotes ol li{
   font-size: 0.8rem;
   margin-left: -30px;
