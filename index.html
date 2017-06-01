@@ -16,7 +16,7 @@
   <link href="css/bassum-liest-bibel.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="margin-bottom: 120px;">
 
 
 
@@ -66,12 +66,14 @@
             <label class="form-check-label">
               <input class="form-check-input" type="checkbox" value="" id="zuschicken-checkbox" name="zuschicken">
               Ja, ich möchte die Bibel zugeschickt bekommen
+              <a href="#vorrat" aria-describedby="footnote-label" class="footnote-ref" id="vorrat-ref" data-toggle="tooltip" data-placement="top" title="So lange Vorrat reicht">1</a>
             </label>
           </div>
           <div class="form-check" style="text-align: left;">
             <label class="form-check-label">
               <input class="form-check-input" type="checkbox" value="" id="newsletter-checkbox" name="newsletter">
               Ja, ich möchte über Neuigkeiten informiert werden!
+              <a href="#widerruf" aria-describedby="footnote-label" class="footnote-ref" id="widerruf-ref" data-toggle="tooltip" data-placement="top" title="Widerruf kann jederzeit erfolgen">2</a>
             </label>
             <select id="newsletter-method-select" class="custom-select" disabled="" name="newsletter-methode">
               <option value="email" selected>E-Mail</option>
@@ -108,8 +110,19 @@
 
 </div><!-- /.container -->
 
-<footer class="footer">
+<footer class="footer" style="height: 120px;">
   <div class="container footer-container">
+    <div class="row" id="footnotes">
+      <h2 id="footnote-label" class="is-hidden">Footnotes</h2>
+      <ol>
+        <li id="vorrat" class="text-muted">
+          So lange der Vorrat reicht <a href="#vorrat-ref" aria-label="Zurück zum Inhalt">↩</a>
+        </li>
+        <li id="widerruf" class="text-muted">
+          Widerruf kann jederzeit erfolgen <a href="#widerruf-ref" aria-label="Zurück zum Inhalt">↩</a>
+        </li>
+      </ol>
+    </div>
     <div class="row">
       <a class="text-muted" href="impressum.html">Impressum</a>
     </div>

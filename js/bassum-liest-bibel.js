@@ -7,7 +7,9 @@ $(function () {
     //$('#order-form').validator();
 });
 
-
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 
 //TODO refactor

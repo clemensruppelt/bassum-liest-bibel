@@ -37,15 +37,28 @@ body {
   max-width: 800px;
   padding: 0 15px;
 }
-.container .text-muted {
-  margin: 20px 0;
-}
-
 
 .footer-container {
-  padding: 0em 2em
+  padding: 0em 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 20px;
 }
 
 .is-hidden{
   display: none;
+}
+
+.footnote-ref {
+  vertical-align: super;
+  font-size: 0.8rem;
+}
+
+#footnotes{
+  margin-top: 10px;
+}
+
+#footnotes ol li{
+  font-size: 0.8rem;
+  margin-left: -30px;
 }
